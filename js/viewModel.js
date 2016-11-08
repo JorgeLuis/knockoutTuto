@@ -1,8 +1,8 @@
 var ViewModel = function() {
 	var self = this;
   	
-  	this.user = ko.observable("PP");
-    this.pass = ko.observable("12345");
+  	this.user = ko.observable("");
+    this.pass = ko.observable("");
  
 	self.validarUserCSS = function() {
 	    if (self.user().length == 0) {
