@@ -1,0 +1,46 @@
+<!doctype html>
+<html lang="en" ng-app="agendaApp">
+<head>
+	 <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+  	<title>Investigación Knockout</title>
+  
+  	<!-- JQUERY -->
+  	<script src="node_modules/jquery/dist/jquery.min.js"></script>
+
+  	<!-- MDBOOTSTRAP -->
+    <link href="node_modules/mdbootstrap/css/bootstrap.min.css" rel="stylesheet">
+	 <link href="node_modules/mdbootstrap/css/mdb.min.css" rel="stylesheet">
+  
+    <!-- knockout  -->
+  	<script src="node_modules/knockout/build/output/knockout-latest.js"></script>
+  
+ </head>
+<body>
+	<div class="container">
+      <div class="navbar-header">            
+            <h2 class="animated bounce">Knockout</h2>          
+        </div>
+      <br>
+    	<div class="row">
+             <div class="col-md-6">
+                <div class="card">
+                  <p>First name: <input data-bind="value: firstName" /></p>
+                  <p>Last name: <input data-bind="value: lastName" /></p>
+                  <h2>Hello, <span data-bind="text: fullName"> </span>!</h2>
+                </div>
+             </div>
+        </div>
+	</div>
+</body>
+
+
+<!-- nuestro jscript -->
+ <script type="text/javascript" src="node_modules/mdbootstrap/js/tether.min.js"></script>
+ <script type="text/javascript" src="node_modules/mdbootstrap/js/bootstrap.min.js"></script>
+ <script type="text/javascript" src="node_modules/mdbootstrap/js/mdb.min.js"></script>
+<script src="js/viewModel.js"></script>
+
+</body>
+</html>
