@@ -5,6 +5,7 @@
   "dependencies": {
     "knockout": ">= 3.4.0",    
     "jquery": ">=2.1.4",
-    "mdbootstrap":">=4.0.0" 
+    "mdbootstrap":">=4.0.0",
+    "font-awesome":">=4.7.0"
   }
 }
